@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:500");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:800");
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+}
+
+.logo {
+    float: left;
+    width: 250px;
+    height: 100px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    float: right;
+    -webkit-appearance: none;
+    background: -webkit-gradient(to right, #a2ccb6 0%, #fceeb5 50%, #ee786e 100%);
+    background: linear-gradient(to right, #a2ccb6 0%, #fceeb5 50%, #ee786e 100%);
+    background-size: 500%;
+    border: none;
+    border-radius: 1rem;
+    color: #fff;
+    cursor: pointer;
+    font: 1em Raleway, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 40px;
+    letter-spacing: 0.05em;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 70px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+button:hover {
+    animation-name: gradient;
+    -webkit-animation-name: gradient;
+    animation-duration: 2s;
+    -webkit-animation-duration: s;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
+
+.jiaohu {
+    margin-top: 200px;
+}
+
+@media screen and (max-width:750px) {
+    .logo {
+        float: left;
+        width: 180px;
+        height: 70px;
+        margin-left: -10px;
+    }
+    button {
+        width: 70px;
+        height: 30px;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+}

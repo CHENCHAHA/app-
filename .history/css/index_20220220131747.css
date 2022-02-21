@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 200px;
+    width: 100%;
+    background-color: aqua;
+}
+
+.logo {
+    width: 1.3333rem;
+    height: 1.3333rem;
+}
