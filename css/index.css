@@ -100,6 +100,26 @@ body::-webkit-scrollbar {
         margin-top: 22px;
         font-size: 12px;
     }
+    .xiazai {
+        top: 600px!important;
+        left: 85px!important;
+    }
+    .zuo dl {
+        margin-right: 60px!important;
+    }
+    .zuo :nth-child(3) {
+        margin-right: 0px!important;
+    }
+    .zuo :nth-child(1) {
+        margin-left: 5px!important;
+    }
+    .you {
+        margin-right: 70px!important;
+    }
+    .zuo {
+        width: 100%!important;
+        padding: 0!important;
+    }
 }
 
 .xiazai {
